@@ -3,6 +3,9 @@ package com.team.demo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.annotation.UiThread;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -10,23 +13,45 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Switch;
+import android.widget.TextView;
 
+import com.andview.refreshview.XRefreshView;
 import com.team.demo.R;
+import com.team.demo.adapter.FragmentCAdapter;
+import com.team.demo.adapter.MainAdapter;
+import com.team.demo.api.response.GroupResponse;
 import com.team.demo.ourlibrary.utils.ToastUtils;
 import com.team.demo.ourlibrary.widget.ContainsEmojiEditText;
 import com.team.demo.utils.ThemeUtils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import butterknife.OnItemClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 import kr.co.namee.permissiongen.PermissionFail;
 import kr.co.namee.permissiongen.PermissionSuccess;
+
+import static com.team.demo.R.id.listview;
 
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.tvContent)
+    TextView mContent;
+
+    @BindView(R.id.custom_view)
+    XRefreshView refreshView;
+
+    @BindView(R.id.listview)
+    ListView mListView;
 
     @BindView(R.id.id_navigationview)
     NavigationView idNavigationview;
@@ -37,6 +62,10 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.emjet_demo)
     ContainsEmojiEditText emjetDemo;
 
+    private MainAdapter mAdapter;
+
+    private Handler handler = new Handler();
+    private int index;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -46,9 +75,78 @@ public class MainActivity extends AppCompatActivity {
         // applyKitKatTranslucency();
         initNavigationView();
 //        setPerMiss();
-
+//每隔一秒运行一次
+        handler.postDelayed(myRunnable, 1000);
+//        new Thread() {
+//            @Override
+//            public void run() {
+//                try {
+//                    Thread.sleep(1);
+//                    handler.post(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            emjetDemo.setText("update Threafd");
+//                        }
+//                    });
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }.start();
+//        new FileDownloadThread().start();
+        ;
+        initData();
     }
 
+    private void initData() {
+        List<String> data = new ArrayList<>();
+        data.add("(点击产看)Viewpager Retrofit 。。");
+        data.add("(点击产看)Handler");
+        mAdapter = new MainAdapter(this);
+        mListView.setAdapter(mAdapter);
+        // 设置是否可以下拉刷新
+        refreshView.setPullRefreshEnable(false);
+        // 设置是否可以上拉加载
+        refreshView.setPullLoadEnable(false);
+        mAdapter.addDates(data);
+        mAdapter.notifyDataSetChanged();
+    }
+
+    private MyRunnable myRunnable = new MyRunnable();
+
+    class MyRunnable implements Runnable {
+
+        @Override
+        public void run() {
+            index++;
+            index = index % 3;
+            mContent.setText(String.valueOf(index));
+            handler.postDelayed(myRunnable, 1000);
+        }
+    }
+
+//
+//    public class FileDownloadThread extends Thread {
+//        @Override
+//        public void run() {
+//            Message message = new Message();
+//            message.what = 1;
+//            myHandler.sendMessage(message);
+//        }
+//    }
+//
+//    Handler myHandler = new Handler() {
+//        public void handleMessage(Message msg) {
+//            if (1 == msg.what) {
+////                ...
+//            }
+//            super.handleMessage(msg);
+//        }
+//    };
+/*
+    @UiThread
+    protected void uirefreh() {
+    }*/
 
     /**
      * 侧滑
@@ -87,11 +185,37 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @OnItemClick(R.id.listview)
+    protected void itemCLick(int position) {
+        switch (position) {
+            case 0:
+                startActivity(new Intent(MainActivity.this, DemoListActivity.class));
+                break;
+            case 1:
+                startActivity(new Intent(MainActivity.this, HandlerThreadActivity.class));
+                break;
+            default:
+                break;
+        }
 
-    @OnClick(R.id.bt_home)
-    public void onClick() {
-        startActivity(new Intent(MainActivity.this, DemoListActivity.class));
     }
+
+
+//
+//    @OnClick({R.id.bt_home, R.id.bt_handler})
+//    public void onClick(View view) {
+//        switch (view.getId()) {
+//            case R.id.bt_home:
+//                startActivity(new Intent(MainActivity.this, DemoListActivity.class));
+//                break;
+//            case R.id.bt_handler:
+//                startActivity(new Intent(MainActivity.this, HandlerThreadActivity.class));
+//                break;
+//            default:
+//                ToastUtils.showShortToast(this, "超出范围");
+//                break;
+//        }
+//    }
 
 
 //    private void setPerMiss() {

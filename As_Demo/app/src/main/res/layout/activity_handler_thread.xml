@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请查看Log日志." />
+
+    <Button
+        android:id="@+id/botton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送" />
+
+    <Button
+        android:id="@+id/botton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止" />
+
+</LinearLayout>

@@ -4,7 +4,7 @@
 
 <table>
     <tr>
-        <td><font size="3" color="red">人生最重要的两个字在于坚持</td>
+        <td><font size="3" color="red">人生最重要的两个字在于坚持,别松懈 </td>
     </tr>
 </table>
 

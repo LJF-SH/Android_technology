@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
+        "outputFile": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-w360dp/values-w360dp.xml",
+                    "file": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-w360dp\\values-w360dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 54,
+                        "endOffset": 344
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-w360dp\\values-w360dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

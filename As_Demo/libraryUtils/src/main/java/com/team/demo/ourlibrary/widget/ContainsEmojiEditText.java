@@ -45,7 +45,7 @@ public class ContainsEmojiEditText extends EditText {
         for (int i = 0; i < count; i++) {
             String attrName = attrs.getAttributeName(i);
             String attrVal = attrs.getAttributeValue(i);
-            Log.e(TAG, "attrName = " + attrName + " , attrVal = " + attrVal);
+            Log.d(TAG, "attrName = " + attrName + " , attrVal = " + attrVal);
         }
 
         ta.recycle();
