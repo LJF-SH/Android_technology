@@ -1,4 +1,4 @@
-# Android_technology
+﻿# Android_technology
 
 > -  在一个月高风黑的晚上，一个素未谋面的大侠说：“探探”app甚好，每每看到大神作品 致敬经典，心怀崇拜之情，然后在四下无人的时候，注册了账号，开始尝试写写东西。发现了写代码的精髓与速度在于---复制粘贴代码的技巧。
 
@@ -107,7 +107,7 @@ Gradle:
 
 ```
 dependencies {
-	compile 'com.github.yk963307153:Android_technologys:V0.0.1'
+	compile 'com.github.LJF-SH:Android_technology:v0.0.1'
 }
 ```
 如果Sycn Now后不能通过，在最外层Gradle中加入：

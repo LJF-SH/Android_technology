@@ -40,24 +40,24 @@
         "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
