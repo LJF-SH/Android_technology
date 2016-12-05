@@ -56,16 +56,16 @@
         "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -88,12 +88,12 @@
         "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -124,20 +124,20 @@
         "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "F:\\Users\\lijiafu\\Android_YK_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "F:\\Android_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "F:\\jf_technology\\As_Demo\\swipeback\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
