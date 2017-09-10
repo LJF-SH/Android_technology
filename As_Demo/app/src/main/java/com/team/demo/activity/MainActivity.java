@@ -4,8 +4,6 @@ package com.team.demo.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Message;
-import android.support.annotation.UiThread;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -13,16 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.andview.refreshview.XRefreshView;
 import com.team.demo.R;
-import com.team.demo.adapter.FragmentCAdapter;
 import com.team.demo.adapter.MainAdapter;
-import com.team.demo.api.response.GroupResponse;
 import com.team.demo.ourlibrary.utils.ToastUtils;
 import com.team.demo.ourlibrary.widget.ContainsEmojiEditText;
 import com.team.demo.utils.ThemeUtils;
@@ -32,13 +26,10 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.OnItemClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 import kr.co.namee.permissiongen.PermissionFail;
 import kr.co.namee.permissiongen.PermissionSuccess;
-
-import static com.team.demo.R.id.listview;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -67,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler();
     private int index;
 
-    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -97,7 +87,9 @@ public class MainActivity extends AppCompatActivity {
         ;
         initData();
     }
-
+    int colors[] = {R.drawable.text_shap,
+            R.drawable.text_shap2,
+            R.drawable.text_shap3,};
     private void initData() {
         List<String> data = new ArrayList<>();
         data.add("(点击产看)Viewpager Retrofit 。。");
@@ -121,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
             index++;
             index = index % 3;
             mContent.setText(String.valueOf(index));
+//            mContent.setBackgroundResource(colors[0]);
             handler.postDelayed(myRunnable, 1000);
         }
     }
